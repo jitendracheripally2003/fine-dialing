@@ -9,7 +9,7 @@ DEFAULT_TONE = "Formal"
 DEFAULT_STYLE = "Descriptive"
 
 # Lambda API URL
-api_url = "https://r0oiv5svdc.execute-api.us-west-2.amazonaws.com/prod/fine_dialing"
+api_url = "https://r0oiv5svdc.execute-api.us-west-2.amazonaws.com/prod1/fine_dialing"
 
 acc_cre = {1:"Low", 2:"Medium", 3:"High"}
 
