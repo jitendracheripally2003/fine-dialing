@@ -25,7 +25,7 @@ def home_page():
     
     ##### Don't need to use prompt engineering, use the below fields to give a character to the LLM.
     
-    ##### Examples are provided in the fields, you can update them and press enter to update the values. After updation, click on `Let's Chat` and start your conversation with your personalized agent.
+    ##### Examples are provided in the fields, type in your own values and press enter. After updation, click on `Let's Chat` and start your conversation with your personalized agent.
     
     ##### Curious to know more about this, click on `Project Details`.
     """)
