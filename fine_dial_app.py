@@ -15,11 +15,11 @@ acc_cre = {1:"Low", 2:"Medium", 3:"High"}
 
 def home_page():
     st.set_page_config(
-        page_title="Fine Dialing | Home",
+        page_title="Fine Dialling | Home",
         page_icon="home",
         layout="wide",
     )
-    st.title("Fine Dialing")
+    st.title("Fine Dialling")
     st.write("""
     *By Jitendra Cheripally*
     
@@ -57,11 +57,11 @@ def home_page():
 
 def chat_page():
     st.set_page_config(
-        page_title="Fine Dialing | Chat",
+        page_title="Fine Dialling | Chat",
         page_icon="message",
         layout="wide",
     )
-    st.title("Fine Dialing")
+    st.title("Fine Dialling")
     if st.button("< Home"):
         st.session_state.page = "home"
         st.rerun()
@@ -110,7 +110,7 @@ def chat_page():
 
 def details_page():
     st.set_page_config(
-        page_title="Fine Dialing | Project Overview",
+        page_title="Fine Dialling | Project Overview",
         page_icon="book",
         layout="wide",
     )
