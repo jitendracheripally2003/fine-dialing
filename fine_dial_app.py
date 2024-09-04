@@ -25,16 +25,16 @@ def home_page():
     
     ##### Don't need to use prompt engineering, use the below fields to give a character to the LLM.
     
-    ##### Examples are provided in the fields, type in your own values and press enter. After updation, click on `Let's Chat` and start your conversation with your personalized agent.
+    ##### Examples are provided in the fields, you can enter whatever you want and click on `Let's Chat` to your conversation with your personalized assisstant.
     
     ##### Curious to know more about this, click on `Project Details`.
     """)
     
     # Fields with default values
-    role = st.text_input("Role", value=DEFAULT_ROLE)
-    language = st.text_input("Language", value=DEFAULT_LANGUAGE)
-    tone = st.text_input("Tone", value=DEFAULT_TONE)
-    style = st.text_input("Writing Style", value=DEFAULT_STYLE)
+    role = st.text_input("Role", placeholder=DEFAULT_ROLE)
+    language = st.text_input("Language", placeholder=DEFAULT_LANGUAGE)
+    tone = st.text_input("Tone", placeholder=DEFAULT_TONE)
+    style = st.text_input("Writing Style", placeholder=DEFAULT_STYLE)
     
     # Dials for Accuracy and Creativity
     accuracy = st.select_slider("Accuracy", options=[1, 2, 3], value=2, format_func=lambda x: ["Low", "Medium", "High"][x-1])
